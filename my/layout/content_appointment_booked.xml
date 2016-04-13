@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vikram.my.Appointment_booked"
+    tools:showIn="@layout/activity_appointment_booked"
+    android:padding="30dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+
+
+       >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:layout_gravity="center">
+        <TextView
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:text="Your Apointment has been accepted"
+            android:textSize="21dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+         android:layout_weight="1"
+           android:textColor="#3fb32c"
+            android:text="WELL DONE"
+            />
+        <TextView
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:text="Thanks You"
+            android:layout_gravity="center"
+            android:textSize="28dp"
+          android:layout_weight="1.5"
+            android:textColor="#3fb32c"
+            />
+        <TextView
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:text="Click Home Button ->"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+        android:layout_weight=".3"
+            android:textColor="#d13820"
+            />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
